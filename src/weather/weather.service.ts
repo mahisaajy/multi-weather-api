@@ -4,10 +4,7 @@ import axios from 'axios';
 import * as Papa from 'papaparse';
 
 @Injectable()
-export class WeatherService {
-    // private openWeatherApiKey = '98a63f3532dbf6dd3666f573624ffc2f';
-    // private tomorrowApiKey = 'LWpXL60yLp0EfqZ7iZffHQMgFJLDnfd0';
-    // private accuWeatherApiKey = 'ahyMg9Kw0I6A9JIVB0tz6llcbhPOlK1x';
+export class WeatherService {    
 
     private openWeatherApiKey: string;
     private tomorrowApiKey: string;
